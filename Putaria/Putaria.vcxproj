@@ -127,7 +127,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Classe.cpp" />
+    <ClCompile Include="classeoperaria.cpp" />
+    <ClCompile Include="elAmesA.cpp" />
+    <ClCompile Include="eleMesmo.cpp" />
+    <ClCompile Include="Fulano.cpp" />
+    <ClCompile Include="Furry.cpp" />
+    <ClCompile Include="Humano.cpp" />
+    <ClCompile Include="Outro.cpp" />
     <ClCompile Include="Putaria.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Classe.h" />
+    <ClInclude Include="classeoperaria.h" />
+    <ClInclude Include="elAmesA.h" />
+    <ClInclude Include="eleMesmo.h" />
+    <ClInclude Include="Fulano.h" />
+    <ClInclude Include="Furry.h" />
+    <ClInclude Include="Humano.h" />
+    <ClInclude Include="Outro.h" />
+    <ClInclude Include="Putaria.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
